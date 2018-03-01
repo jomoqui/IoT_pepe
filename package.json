@@ -4,7 +4,7 @@
   "description": "Una plataforma de IoT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "standard": "standard"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "homepage": "https://github.com/jomoqui/IoT_pepe#readme",
   "devDependencies": {
     "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "ajv": "^6.2.0",
+    "int": "^0.2.0",
+    "lint": "^1.1.2",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.35.1"
   }
 }
